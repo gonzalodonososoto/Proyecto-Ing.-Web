@@ -1,0 +1,33 @@
+<nav>
+  <div id='principal'>
+    <button mat-button>
+      <a routerLink="/"><mat-icon aria-hidden="false"  aria-label="Example home icon" inline=true>home</mat-icon> Inicio</a>
+    </button>
+
+    <button mat-button [matMenuTriggerFor]="aboveMenu">Contenidos</button>
+  <mat-menu #aboveMenu="matMenu" yPosition="above">
+    <button mat-menu-item>
+      <a routerLink="/sumaresta">Suma y Resta</a>
+    </button>
+    
+    <button mat-menu-item>
+      <a routerLink="/multidiv">Multiplicacion y Division</a>
+    </button>
+
+    <button mat-menu-item> 
+      <a routerLink="/frac">Fracciones</a>
+    </button>
+
+  </mat-menu>
+  </div>
+
+  <div id='secundario'>
+    <button mat-button>
+      <a routerLink="/tareas" title="Notificaciones"><mat-icon aria-hidden="false"  aria-label="Notificaciones" inline=true>{{icono}}</mat-icon></a>
+    </button>
+    <button mat-button>
+      <a routerLink="/sesion">Iniciar Sesion</a>
+    </button>
+  </div>
+
+</nav>

@@ -1,0 +1,48 @@
+nav {
+  background-color: blue;
+  position: relative;
+  height: 45px;
+}
+nav #principal {
+  float: left;
+}
+nav #principal button {
+  border: 0px;
+  background-color: blue;
+  color: black;
+  padding: 10px;
+}
+nav #principal button a {
+  color: black;
+  text-decoration: none;
+}
+nav #principal button a:hover {
+  color: black;
+  background-color: blue;
+}
+nav #principal button:hover {
+  color: black;
+  background-color: blue;
+}
+nav #secundario {
+  float: right;
+  padding-right: 5px;
+}
+nav #secundario button {
+  border: 0px;
+  background-color: blue;
+  color: black;
+  padding: 10px;
+}
+nav #secundario button a {
+  color: black;
+  text-decoration: none;
+}
+nav #secundario button a:hover {
+  color: black;
+  background-color: blue;
+}
+nav #secundario button:hover {
+  color: black;
+  background-color: blue;
+}
